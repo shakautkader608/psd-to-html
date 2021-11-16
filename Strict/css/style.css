@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.wrepper{
+     width: 960px;
+     margin: 0  auto;
+}
+
+
+.header_part{
+    width: 100%;
+    height: 59px;
+    background: #fff;
+}
+.header_part .header{
+    height: 59px;
+    background: #fff;
+}
+
+.header_part .header  .logo_part{
+    width: 278px;
+    height: 59px;
+    background: #fff;
+    float: left;
+    line-height: 55px; 
+/*    Eikhane line-height ami 59 use korar por up & down equal hoyna */
+}
+    
+}
+.header_part .header  .menu_part{
+    width: 682px;
+    height: 59px;
+    background: #294664;
+    float: left;
+}
+
+.header_part .header  .menu_part ul{
+    float: right;
+}
+.header_part .header  .menu_part ul li{
+    float: left;
+}
+.header_part .header  .menu_part ul li a{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: black;
+    padding-left: 28px;
+    line-height: 59px;
+}
+.header_part .header  .menu_part ul li a:hover{
+    color: #0099ff;
+    transition: 0.4s;
+}
+.header_part .header  .menu_part ul li a.active{
+    color: #0099ff; 
+}
+
+/*Logo &  Menu_part Ends Here*/
+
+
+.banner_part{
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_part .banner{
+    height: 800px;
+    text-align: center;
+}
+
+.banner_part .banner h2{
+    font-size: 120px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    border-bottom: 2px solid #0099ff ;
+    display: inline-block;
+    margin-top: 175px;
+}
+.banner_part .banner p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    margin-top: 40px;
+}
+.banner_part .banner a{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    border: 1px solid #0099ff;
+    padding: 0px 35px;
+    line-height: 56px;
+    display: inline-block;
+    margin-top: 60px;
+    
+/*eikhane ami padding diyei ta up down a shap ta nite partam,kno 0 diye nilam r kno line height and inline-block kno use korsi*/
+}
+.banner_part .banner a:hover{
+    color: #0099ff;
+    transition: 0.4s;  
+}
+/*Full box ta hover korar  jonno "display:block" use korar por box ta onk wide hoye jaccche  kno?*/
+
+/*Banner_part Ends Here*/
+
+
+.simple_text{
+    width: 100%;
+    height: 340px;
+    background: #f1f1f1;
+}
+.simple_text .text_part{
+    height: 320px;
+    background: #f1f1f1;
+    text-align: center;
+}
+.simple_text .text_part h5{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#2d3950;
+    padding-top: 80px;
+}
+.simple_text .text_part p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+    padding-top: 30px;
+}
+/*Simple & Pure Design part Ends Here*/
+
+.icon_part{
+    width: 100%;
+    height: 340px;
+    background: #fff;
+}
+.icon_part .icon_item{
+    height: 340px;
+    background: #fff;
+}
+.icon_part .icon_item .call_1{
+    width: 320px;
+    height: 340px;
+    background: #fff;
+    float: left;   
+    text-align: center;
+}
+.icon_part .icon_item .call_1 .icon{
+    height: 100px;
+    width: 100px;
+    background: #5fc3ff;
+    margin: 0 auto;
+    margin-top: 65px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.icon_part .icon_item .call_1 .icon .overly{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(72,186,255,.5);
+    top: 0;
+    left: -50%;
+    opacity: 1;
+    transition: all linear 0.3s;
+    
+    
+}
+.icon_part .icon_item .call_1 .icon:hover .overly{
+    left: 0;
+    opacity: 1;
+}
+.icon_part .icon_item .call_1 .icon i{
+    font-size: 70px;
+    color:#fff;
+    line-height: 100px;  
+}
+.icon_part .icon_item .call_1 h5{
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#2d3950;
+    padding-top: 30px;
+}
+.icon_part .icon_item .call_1 p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+     padding-top: 20px;
+}
+
+.icon_part .icon_item .call_1 .icon i.plane{
+    font-size: 40px;
+}.icon_part .icon_item .call_1 .icon i.bull{
+    font-size: 42px;
+}
+
+/*Icon_Part Ends Here*/
+
+
+
+
+.image_part{
+    width: 100%;
+    height: 900px;
+    background: #f6f9f9;
+}
+.image_part .text_item{
+    height: 234px;
+    text-align: center;
+}
+.image_part .text_item h5{
+    font-size: 41px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#2d3950;
+    padding-top: 80px;
+}
+.image_part .text_item p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+.image_part .image_item{
+    height: 666px; 
+}
+.image_part .image_item .img_1{
+    width: 300px;
+    height: 260px;
+    float: left;
+    background: url(../images/pic_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+.image_part .image_item .img_1 .overly{
+    height: 100%;
+    width: 100%;
+    background: rgb(32, 159, 232,0.9);
+    position: absolute;
+    opacity: 1;
+    left: -100%; 
+}
+.image_part .image_item .img_1 .overly i{
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 13px;
+    margin-top: 110px;
+    margin-left: 10px;  
+}
+.image_part .image_item .img_1:hover .overly{
+   left: 0;
+   transition: all linear 0.4s;  
+}
+.image_part .image_item .img_2{
+    width: 300px;
+    height: 260px;
+    background: url(../images/pic_2.png);
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.image_part .image_item .img_3{
+    width: 300px;
+    height: 260px;
+    background: url(../images/pic_3.png);
+    float: left;
+}
+.image_part .image_item .img_4{
+    width: 300px;
+    height: 260px;
+    background: url(../images/pic_4.png);
+    float: left;
+    margin-top: 30px;
+}
+.image_part .image_item .img_5{
+    width: 300px;
+    height: 260px;
+    background: url(../images/pic_5.png);
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.image_part .image_item .img_6{
+    width: 300px;
+    height: 260px;
+    background:url(../images/pic_6.png);
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/*Image part ends here*/
+
+.form_part{
+    background: url(../images/footer.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_part .overly{
+    background: rgb(45, 57, 80,0.8);
+    height: 700px;
+}
+.form_part .overly .form{
+    height: 700px;
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form_part .overly .form h5{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    padding-top: 75px;
+}
+.form_part .overly .form p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+    padding-top: 20px;
+}
+
+.form_part .overly .form .fields{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+
+}
+
+.form_part .overly .form textarea.fields{
+    height: 160px;
+    resize: none;
+}
+.form_part .overly .form h6 label{
+    float: left;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    margin-top: 20px;  
+}
+.form_part .overly .form h6 label .box{
+    width: 17px;
+    height: 17px;
+    
+}
+.form_part .overly .form h6 .send {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: 1px solid #5fc3ff;
+    line-height: 45px;
+    padding: 0px 50px;
+    background: none;
+    margin-top: 20px;
+    
+}
+.form_part .overly .form h6 .send:hover{
+    background: #5fc3ff;
+}
+.form_part .overly .form h6 label input{
+    margin-right: 10px;
+}
+
+/*Checkbox er color kivabe change korbo??*/
+
+.footer_part{
+    width: 100%;
+    background: #fff;
+}
+.footer_part .footer{
+    height: 80px;
+    background: #fff;
+}
+.footer_part .footer .text_item{
+    width: 50%;
+    height: 80px;
+    float: left;
+}
+.footer_part .footer .text_item p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color:#999999;
+    line-height: 80px;
+}
+.footer_part .footer .icon_item{
+    width: 50%;
+    height: 80px;
+    float: left;
+    position: relative;
+    background: #382424;
+}
+
+.footer_part .footer .icon_item ul {
+    float: right;
+    
+/*   eikhane eita chara ki r kono upay ache??/*/
+}
+.footer_part .footer .icon_item ul li {
+    float: left;
+  
+}
+.footer_part .footer .icon_item ul li a{
+    width: 40px;
+    height: 40px;
+    background: #15a4fa;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;  
+}
+
+.footer_part .footer .icon_item ul li:last-child a{
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
